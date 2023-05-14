@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroFrame", "src\RetroFrame\RetroFrame.csproj", "{ABB80C54-1CF2-4E2B-AC6C-C5F020495A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNA", "vendor\FNA\FNA.csproj", "{35253CE1-C864-4CD3-8249-4D1319748E8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{8EB160D5-7C9E-4222-8C49-6DA72A7AF9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chip8", "chip8\chip8.csproj", "{3F2CD333-6BB1-4973-9C30-86D2D84823A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB80C54-1CF2-4E2B-AC6C-C5F020495A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB80C54-1CF2-4E2B-AC6C-C5F020495A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB80C54-1CF2-4E2B-AC6C-C5F020495A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB80C54-1CF2-4E2B-AC6C-C5F020495A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2CD333-6BB1-4973-9C30-86D2D84823A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2CD333-6BB1-4973-9C30-86D2D84823A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2CD333-6BB1-4973-9C30-86D2D84823A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2CD333-6BB1-4973-9C30-86D2D84823A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35253CE1-C864-4CD3-8249-4D1319748E8F} = {8EB160D5-7C9E-4222-8C49-6DA72A7AF9E9}
+	EndGlobalSection
+EndGlobal
